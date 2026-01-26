@@ -11,7 +11,7 @@ import csv
 
 
 ###############################################################
-# 主函数
+# Main
 ###############################################################
 
 
@@ -47,11 +47,10 @@ def main():
         )
     )
 
-    # cudnn加速训练
-    torch.backends.cudnn.benchmark = True
-    # torch.backends.cudnn.deterministic = True
 
-    # 设置log文件记录实验
+    torch.backends.cudnn.benchmark = True
+
+    # Set Up Log File
     util.setup_logger(
         "base",
         opt["path"]["log"],
