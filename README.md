@@ -8,7 +8,7 @@ Official code for ``Diffusion-based arbitrary-scale magnetic resonance image sup
 - CUDA (if using GPU)
 - Other dependencies listed in `requirements.txt`
 
-## Installation
+## Clone
 
 ```bash
 # Clone the repository
