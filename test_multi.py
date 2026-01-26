@@ -116,7 +116,7 @@ def main():
 
             x0 = val_data
             ####Stage 1#######
-            deg_xt, mask_l, y, condition, xs, mask_s1 = sde.get_deg_t_s(x0, time_l, time_s1)
+            deg_xt, mask_l, y, condition, xs1, mask_s1 = sde.get_deg_t_s(x0, time_l, time_s1)
             model.feed_data(deg_xt, x0=x0, condition=condition)
             model.test_sde_t_s(sde, mask=mask_l, y=y, condition=condition, use_inver_fp=args.use_y, time_t=time_l,
                                time_s=time_s1)
