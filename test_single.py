@@ -25,7 +25,7 @@ def main():
     parser.add_argument("--low", type=int, default=40)
     parser.add_argument("--high", type=int, default=320)
     parser.add_argument("--use_y", default=True)
-    parser.add_argument("--path", default='./savemodel/270000_RG.pth')
+    parser.add_argument("--path", default='./savemodel/300000_RG.pth')
     parser.add_argument("--save_dir_mat", default='./result/')
     args = parser.parse_args()
 
