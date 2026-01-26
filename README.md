@@ -4,6 +4,7 @@ Official code for ``Diffusion-based arbitrary-scale magnetic resonance image sup
 
 ## Requirements
 
+
 - CUDA (if using GPU)
 - Other dependencies listed in `requirements.txt`
 
@@ -13,6 +14,7 @@ Official code for ``Diffusion-based arbitrary-scale magnetic resonance image sup
 # Clone the repository
 https://github.com/Jiazhen-Wang/PRDDiff.git
 cd PRDDiff
+```
 
 ## Dataset
 
