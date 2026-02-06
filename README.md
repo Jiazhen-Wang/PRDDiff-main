@@ -12,8 +12,8 @@ Official code for ``Diffusion-based arbitrary-scale magnetic resonance image sup
 
 ```bash
 # Clone the repository
-https://github.com/Jiazhen-Wang/PRDDiff.git
-cd PRDDiff
+https://github.com/Jiazhen-Wang/PRDDiff-main.git
+cd PRDDiff-main
 ```
 
 ## Dataset
